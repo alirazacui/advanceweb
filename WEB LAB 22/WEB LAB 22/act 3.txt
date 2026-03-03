@@ -1,0 +1,31 @@
+Activity 3:
+App.jsx:
+import React from 'react';
+import Greeting from './Greeting';
+import './App.css'
+
+
+
+
+function App() {
+
+
+  
+
+  return (
+    <div className="App">
+      <Greeting name="Bilawal" />
+       
+
+    </div>
+   
+   
+  )
+}
+
+export default App
+Greeting.jsx:
+function Greeting(props){
+    return <h1>Hello, {props.name}!</h1>
+}
+export default Greeting;

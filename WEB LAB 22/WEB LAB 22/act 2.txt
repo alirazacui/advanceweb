@@ -1,0 +1,22 @@
+Activity 2:
+import React from 'react';
+
+import './App.css'
+
+
+function App() {
+  const userName="Alice";
+  function DynamicGreeting(){
+    return <h1>Hello,{userName}!</h1>
+  }
+  return (
+    <div className="App">
+       <DynamicGreeting/>
+       <h1>2+2={2+2}</h1>{/*inline calculation*/}
+
+    </div>
+     
+  )
+}
+
+export default App
